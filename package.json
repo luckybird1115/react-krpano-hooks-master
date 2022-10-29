@@ -1,0 +1,53 @@
+{
+  "name": "react-krpano-hooks",
+  "version": "2.0.0",
+  "description": "A package migrates KRPano into React as a hook",
+  "author": "Tim Wei <galadiya41@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinenic/react-krpano-hooks.git"
+  },
+  "types": "types/index.d.ts",
+  "keywords": [
+    "KRPano",
+    "react",
+    "hooks"
+  ],
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "react": ">= 16.13.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-scripts": "3.4.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
